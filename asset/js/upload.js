@@ -217,7 +217,7 @@ function render_uploaded() {
         const WPRAW = "https://i3.wp.com/telegra.ph"  //使用wordpress.com加速
         const PhRAW = "https://telegra.ph"   //原地址
         - const PROXYURL = "tuch-30j.pages.dev"  //自定义加速域名 默认是使用cloudflare
-        + const BASE_PROXYURL = "https://tuchuan.cachefly.net"  //PROXYURL ? PROXYURL : BASE_URL;
+        + const BASE_PROXYURL = "https://t.whyz.ru"  //PROXYURL ? PROXYURL : BASE_URL;
         
         var url = resp.data.thumb == null ? BASE_PROXYURL + resp.data.url : BASE_PROXYURL + resp.data.thumb.url;
         var wpurl = resp.data.thumb == null ? WPRAW + resp.data.url : WPRAW + resp.data.thumb.url;
